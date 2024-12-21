@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{   
+    background-color: rgb(215, 241, 250);
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 10vh;
+    text-align: center;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+
+}
+
+.box{
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 55vh;
+    background-color: white;
+}
+
+.begBox{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 5vw;
+    background-color: white;
+}
+
+.cityInput{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.begInput{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox{
+    border-color: black;
+    height: 80%;
+    width: 60%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: large;
+}
+
+.begInputBox{
+    height: 80%;
+    width: 60%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: large;
+}
+
+.searchButton{
+    height: 80%;
+    border: none;
+}
+
+.searchButton :hover{
+    cursor: pointer;
+}
+
+.begSearchButton{
+    height: 80%;
+    border: none;
+}
+
+.begSearchButton :hover{
+    cursor: pointer;
+}
+
+.buttonImg{
+    height: 3rem;
+    height: 100%;
+}
+
+.displayTemp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50%;
+}
+
+.currWeatherImage{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+#tempImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.displayOtherDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+
+.diaplayDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.imageCls{
+    width: 40%;
+    height: 100%;
+}
+
+#windImg , #humidityImg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.valCls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.val{
+    font-size: 1.5rem;
+}
+
+.text{
+    font-size: 1.3rem;
+}
+
+#tempVal{
+    font-size: 2rem;
+}
+
+#tempText{
+    font-size: 1.3rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
