@@ -52,7 +52,7 @@ searchBtn.addEventListener("click" , async ()=>{
 let getPlaceDetails = async(areaName) => {
 
     try{
-        let placeDetailsURL = `http://api.openweathermap.org/geo/1.0/direct?q=${areaName}&limit=1&appid=e18e4afea3f13859839d69eb9578f4d7`;
+        let placeDetailsURL = `https://api.openweathermap.org/geo/1.0/direct?q=${areaName}&limit=1&appid=e18e4afea3f13859839d69eb9578f4d7`;
         let response = await fetch(placeDetailsURL);  
         if(!response.ok) throw new Error("Invalid input");    
         return await response.json();      
